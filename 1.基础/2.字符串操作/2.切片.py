@@ -15,7 +15,7 @@ print(name[:5])  # abcde    结束位置下标都不读取 和for循环所遇到
 print(name[1:])  # bcdefg   初始位置不同于结束位置，初始位置读取
 print(name[:])  # abcdefg
 print(name[::2])  # aceg
-print(name[:-1])  # abcdef  负1表示倒数第一个数据，相当于从最后1开始数起,注意起始不是0
+print(name[:-1])  # abcdef  结束位置负1表示倒数第一个数据，相当于从最后1开始数起,注意起始不是0
 print(name[-7:])  # abcdefg
 print(name[-4:-1])  # def
 print(name[::-1])  # gfedcba    颠倒，字符串反转
